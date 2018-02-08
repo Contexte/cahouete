@@ -90,7 +90,7 @@ If you want to make a component:
 at the top of your layout:
 
 ```html
-{% import rootDir + "/components/:Component:/index.njk" as :Component: %}
+{% import componentsDir + "/:Component:/index.njk" as :Component: %}
 ```
 
 and in `<mj-head>`:
