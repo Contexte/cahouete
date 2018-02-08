@@ -1,0 +1,15 @@
+<mj-style inline="inline">
+.Generic-element {
+  border: 0;
+  height: 1px;
+  background-color: #E6E6E6;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.Generic-element--small {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</mj-style>
