@@ -1,4 +1,4 @@
-# Peanut
+# Cahouète
 
 <img src="docs/__files__/logo.svg" height="300" />
 
@@ -16,7 +16,7 @@ The idea behind this framework is that even if mjml is an amazing one, it doesn'
 
 ## Install
 
-Download the [version wanted](https://github.com/kud/peanut/releases) and:
+Download the [version wanted](https://github.com/contexte/cahouete/releases) and:
 
 ```shell
 $ npm install
