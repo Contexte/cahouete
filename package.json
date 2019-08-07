@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/contexte/cahouete#readme",
   "devDependencies": {
-    "babel-core": "6.26.0",
+    "babel-core": "6.26.3",
     "babel-preset-env": "1.6.1",
     "browser-sync": "2.23.6",
     "del": "3.0.0",
@@ -27,7 +27,7 @@
     "gulp-cli": "2.0.1",
     "gulp-htmlmin": "4.0.0",
     "gulp-mjml": "2.3.0",
-    "gulp-nunjucks-render": "2.2.2",
+    "gulp-nunjucks-render": "2.2.3",
     "gulp-rename": "1.2.2",
     "mjml": "3.3.5",
     "path": "0.12.7"
