@@ -1,17 +1,17 @@
-{% extends "default.mjml.njk" %}
+<% extends "default.mjml.njk" %>
 
-{% block css %}
-{% include "./Sample/index.css" %}
-{% endblock %}
+<% block css %>
+<% include "./Sample/index.css" %>
+<% endblock %>
 
-{% block header %}
+<% block header %>
 <mj-text>Sample</mj-text>
-<mj-text>{{ Generic.render() }}</mj-text>
-{% endblock %}
+<mj-text><$ Generic.render() $></mj-text>
+<% endblock %>
 
-{% block content %}
-{% endblock %}
+<% block content %>
+<% endblock %>
 
-{% block footer %}
-{% endblock %}
+<% block footer %>
+<% endblock %>
 

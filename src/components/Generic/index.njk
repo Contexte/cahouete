@@ -1,13 +1,13 @@
-{% macro style() %}
-{% include "./index.css" %}
-{% endmacro %}
+<% macro style() %>
+<% include "./index.css" %>
+<% endmacro %>
 
-{% macro
+<% macro
   render(
     size="normal"
   )
-%}
+%>
 <div class="Generic">
-  <hr class="Generic-element Generic-element--{{ size }}" />
+  <hr class="Generic-element Generic-element--<$ size $>" />
 </div>
-{% endmacro %}
+<% endmacro %>
