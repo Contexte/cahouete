@@ -1,6 +1,6 @@
 {
   "name": "cahouete",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Writing email templates is now so much fun.",
   "main": "gulpfile.babel.js",
   "scripts": {
