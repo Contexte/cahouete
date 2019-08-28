@@ -1,40 +1,38 @@
-{# When importing, do not forget to also import style in <mj-head> #}
-{% import componentsDir + "/Generic/index.njk" as Generic %}
+<# When importing, do not forget to also import style in <mj-head> #>
+<% import componentsDir + "/Generic/index.njk" as Generic %>
 
 <mjml>
   <mj-head>
-    <mj-title>{% block title %}{% endblock %}</mj-title>
+    <mj-title><% block title %><% endblock %></mj-title>
 
-    {% include fontsDir + "/open-sans.njk" %}
+    <% include fontsDir + "/open-sans.njk" %>
 
-    {% include stylesDir + "/attributes.njk" %}
+    <% include stylesDir + "/attributes.njk" %>
 
-    {% include layoutsDir + "/default.css" %}
+    <% include layoutsDir + "/default.css" %>
 
-    {{ Generic.style() }}
+    <$ Generic.style() $>
 
-    {% block css %}{% endblock %}
+    <% block css %><% endblock %>
   </mj-head>
 
-  <mj-body>
-    <mj-container css-class="Container">
-      <mj-section css-class="Header">
-        <mj-column>
-          {% block header %}{% endblock %}
-        </mj-column>
-      </mj-section>
+  <mj-body css-class="Body">
+    <mj-section css-class="Header">
+      <mj-column>
+        <% block header %><% endblock %>
+      </mj-column>
+    </mj-section>
 
-      <mj-section css-class="Content">
-        <mj-column>
-          {% block content %}{% endblock %}
-        </mj-column>
-      </mj-section>
+    <mj-section css-class="Content">
+      <mj-column>
+        <% block content %><% endblock %>
+      </mj-column>
+    </mj-section>
 
-      <mj-section css-class="Footer">
-        <mj-column>
-          {% block footer %}{% endblock %}
-        </mj-column>
-      </mj-section>
-    </mj-container>
+    <mj-section css-class="Footer">
+      <mj-column>
+        <% block footer %><% endblock %>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>

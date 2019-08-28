@@ -43,7 +43,15 @@ const templates = () => {
         PATHS.stylesDir,
       ],
       envOptions: {
-        noCache: true
+        noCache: true,
+          tags: {
+            blockStart: "<%",
+            blockEnd: "%>",
+            variableStart: "<$",
+            variableEnd: "$>",
+            commentStart: "<#",
+            commentEnd: "#>"
+          },
       }
     }))
     .pipe(gulp.dest(PATHS.buildDir))
