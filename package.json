@@ -30,7 +30,7 @@
     "gulp-mjml": "4.0.2",
     "gulp-nunjucks-render": "2.2.3",
     "gulp-rename": "1.4.0",
-    "mjml": "4.4.1",
+    "mjml": "4.5.1",
     "path": "0.12.7"
   }
 }
