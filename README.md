@@ -1,3 +1,5 @@
+⚠️ **THIS REPOSITORY IS NOT MAINTAINED ANYMORE** ⚠️
+
 # Cahouète
 
 <img src="docs/__files__/logo.svg" height="300" />
